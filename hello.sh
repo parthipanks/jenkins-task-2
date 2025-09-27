@@ -1,4 +1,15 @@
 #!/bin/bash
-echo "Hello from Jenkins build at $(date)" > output.txt
-Test build at Sat Sep 27 21:11:07 IST 2025
-Test build at Sat Sep 27 21:14:13 IST 2025
+
+# Ensure script is executable
+chmod +x hello.sh
+
+# Run the script
+./hello.sh
+
+# Display the output
+cat output.txt
+
+# Optional: append a test message
+echo "Test build at $(date)" >> output.txt
+
+Trigger Jenkins build at Sat Sep 27 21:42:41 IST 2025
