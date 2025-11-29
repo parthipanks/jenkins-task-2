@@ -6,6 +6,3 @@ echo "Running on host: $(hostname)"
 echo "Current directory: $(pwd)"
 echo "Listing files:"
 ls -la
-
-exit 1
-
